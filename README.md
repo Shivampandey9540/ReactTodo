@@ -1,6 +1,6 @@
 # This project is done Under the Hitesh Chodhary's React Course
 
-![img](Picture\WorkingImage.PNG)
+![img](./Picture/WorkingImage.PNG)
 
 > Some Changes in css as per my liking
 
