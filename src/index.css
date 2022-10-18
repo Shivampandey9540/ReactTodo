@@ -1,0 +1,105 @@
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background: #ff512f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dd2476,
+    #ff512f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dd2476,
+    #ff512f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+  background: -webkit-linear-gradient(#383cc1, #3a1e18);
+  /* background: -o-linear-gradient(#dd2476, #ff512f); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 20px;
+  /* color: aliceblue; */
+}
+/* form {
+  position: fixed;
+  bottom: 500px;
+  right: 30%;
+  left: 30%;
+  border-radius: 8px;
+  border: 2px solid rgb(66, 66, 180);
+  color: #000;
+  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
+} */
+
+/* .items {
+  position: fixed;
+
+  top: 50px;
+  right: 30%;
+  left: 30%;
+  border-radius: 8px;
+} */
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.completedTodo {
+  background-color: darkgray;
+  text-decoration: line-through;
+}
+
+.float-right {
+  display: flex;
+  gap: 30px;
+  float: right;
+}
+
+form {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+}
+input {
+  outline: none;
+  width: 70%;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+#Button {
+  padding: 5px 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+#Button:hover {
+  background-color: #403b4a;
+  color: white;
+  transition: 0.5s linear;
+}
+ul {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+li {
+  width: 43%;
+  margin-bottom: 3px;
+}
+
+svg:hover {
+  color: blue;
+}
